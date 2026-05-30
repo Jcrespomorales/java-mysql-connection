@@ -8,7 +8,7 @@ Proyecto base en Java para conectarse a MySQL usando JDBC y ejecutar operaciones
 - Driver JDBC de MySQL (`mysql-connector-j`)
 
 ## Configuración de conexión
-Define los siguientes parámetros:
+Definir los siguientes parámetros:
 - `host` (ej: `localhost`)
 - `port` (ej: `3306`)
 - `database`

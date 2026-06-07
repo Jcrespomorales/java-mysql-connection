@@ -80,20 +80,21 @@ Cada tabla está representada por una clase Java y su correspondiente DAO.
 ---
 
 ## 📂 Estructura del proyecto
+``Mostrar más líneas
 src/
- └── Paquete/   ← ✅ PAQUETE RAÍZ
-      ├── modelo/
-      │    ├── Empleado.java
-      │    ├── Cliente.java
-      │    └── Coche.java
-      │
-      ├── dao/
-      │    ├── EmpleadoDAO.java
-      │    ├── ClienteDAO.java
-      │    └── CocheDAO.java
-      │
-      ├── conexion/
-      │    └── ConexionBD.java
-      │
-      └── main/
-           └── JavaMysql.java
+└── Paquete/   ← ✅ PAQUETE RAÍZ
+├── modelo/
+│    ├── Empleado.java
+│    ├── Cliente.java
+│    └── Coche.java
+│
+├── dao/
+│    ├── EmpleadoDAO.java
+│    ├── ClienteDAO.java
+│    └── CocheDAO.java
+│
+├── conexion/
+│    └── ConexionBD.java
+│
+└── main/
+└── JavaMysql.java

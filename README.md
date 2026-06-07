@@ -32,7 +32,7 @@ ConexionBD
 Base de datos MySQL
 
 
-- **Modelos (POJO):** representan las tablas (`Empleado`, `Cliente`, `Coche`)
+- **Modelos:** representan las tablas (`Empleado`, `Cliente`, `Coche`)
 - **DAO:** contienen la lógica de acceso a datos (CRUD)
 - **ConexionBD:** gestiona la conexión con la base de datos
 - **Main (JavaMysql):** punto de entrada de la aplicación
@@ -80,7 +80,7 @@ Cada tabla está representada por una clase Java y su correspondiente DAO.
 ---
 
 ## 📂 Estructura del proyecto
-``Mostrar más líneas
+
 src/
 └── Paquete/   ← ✅ PAQUETE RAÍZ
 ├── modelo/
